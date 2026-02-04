@@ -49,10 +49,10 @@ pip install -r requirements.txt
 
 
 ### 🔑 Biblia API Setup
-Register at: https://bibliaapi.com/docs/API_Keys
-Copy your API key
-Open config/settings.py and set:
-API_KEY = "your_api_key_here"
+- Register at: https://bibliaapi.com/docs/API_Keys
+- Copy your API key
+- Open config/settings.py and set:
+- API_KEY = "your_api_key_here"
 
 ### ▶️ Run the Application
 python app.py (alternatively: python3 app.py)
