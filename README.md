@@ -48,7 +48,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-###🔑 Biblia API Setup
+### 🔑 Biblia API Setup
 Register at: https://bibliaapi.com/docs/API_Keys
 Copy your API key
 Open config/settings.py and set:
@@ -63,7 +63,7 @@ The app will automatically:
 - Save progress when navigating forward
 
 
-##📊 Reading Plan Logic
+## 📊 Reading Plan Logic
 - reading_plan.json defines daily passages
 - progress.json stores last completed day
 - Progress is updated automatically
@@ -76,7 +76,9 @@ The app will automatically:
 - 📱 Mobile version (future)
 
 ## 🗂️ Project Structure
-bible-reading-app/
+bible-reading-app
+```
+/
 │
 ├── app.py                  # Application entry point
 │
@@ -99,7 +101,7 @@ bible-reading-app/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## 📜 License
 This project is for personal and educational use.
 Scripture content is retrieved via the Biblia API under their terms.
@@ -108,4 +110,6 @@ Scripture content is retrieved via the Biblia API under their terms.
 - Biblia API
 - PyQt5
 - Python Open Source Community
+```
 “Man shall not live by bread alone, but by every word that proceeds from the mouth of God.” — Matthew 4:4
+```
